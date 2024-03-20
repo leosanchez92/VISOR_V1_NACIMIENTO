@@ -1,0 +1,197 @@
+
+body {
+  /*ancho del navbar*/
+  padding-top: 58px;
+}
+@media (max-width: 550px) {  /*Para ajuste responsive*/
+  body{
+    padding-top: 48px
+  };
+
+}
+
+html, body, #container {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+#map {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: auto;
+}
+
+/* HEADER/NAVBAR */
+.navbar {
+  /*background: linear-gradient( rgb(236, 180, 58), rgb(231, 182, 19), rgb(241, 168, 11));*/
+  background: linear-gradient( rgb(37, 150, 88), rgb(17, 148, 30));
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  z-index: 999;
+}
+
+.navbar-toggler{
+  background-color: rgba(113, 241, 126, 0.808);
+  margin-top: 1px;
+}
+
+.navbar-toggler-icon{
+  width: 20px;
+}
+
+.dropdown-menu {
+  background: linear-gradient( rgba(21, 147, 77, 0.515), rgba(157, 255, 166, 0.613));
+  margin-top: 2px;
+  font-size: small;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: rgba(66, 198, 92, 0.568);
+}
+
+/*MAP*/
+.info { 
+  padding: 10px 10px; 
+  font-size: 14px/25px; 
+  background: rgba(238, 196, 58, 0.8); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+  border-radius: 5px; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.info h4 { 
+  margin: 0 0 5px; 
+  color: rgb(0, 0, 0); 
+}
+
+.leaflet-popup-content-wrapper {
+      background: rgba(255, 255, 255, 0.774);
+      color: rgb(0, 0, 0);
+      font-size: 12px;
+      line-height: 24px;
+      border-radius: 5px;
+      max-width: 250px;
+      font-family: 'Roboto', sans-serif;
+}
+
+.leaflet-popup-tip {
+    background: rgba(255, 255, 255, 0.774);
+    box-shadow: 10px ;
+}
+
+.leaflet-control-layers,
+.leaflet-control-layers label {
+    overflow: normal;
+    font-weight: normal;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: middle;
+}
+
+.leaflet-control-layers-list input[type="radio"], input[type="checkbox"] {
+    margin: 3px;
+  }
+
+  .search-tip b {
+    float: right;
+    clear: left;
+    padding: 0 4px;
+    margin-left: 4px;
+ 
+}
+
+.JJVV.search-tip b{
+  color: rgb(17, 0, 173);
+  float: right;
+}
+
+.PRC.search-tip b{
+  color: rgb(0, 0, 0);
+  float: right;
+}
+
+.leaflet-control-search .search-tooltip {
+	min-width: min-content;
+	max-width: max-content; 
+}
+
+.leaflet-control-search .search-tip {
+	margin-left :2px;
+	min-width: max-content;
+  padding:2px 4px;
+}
+
+.leaflet-control-search .search-tip b{
+	margin-left: 4px;
+}
+
+.fa-spin{
+  color: orange;
+}
+
+.fa-location-arrow {
+  vertical-align: middle;
+};
+
+/*TÍTULO RESPONSIVE*/
+@media(max-width: 550px){
+  .navbar-brand{
+  font-size: 4vw;
+}
+  #logo{
+    width: 35px;
+    height: 35px;
+  }  
+
+  .navbar-collapse a{
+    font-size: 3.5vw;
+  }
+}
+
+.img {
+vertical-align: middle;
+}
+
+.list-group-item img {
+max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
+height: auto; /* Altura automática para mantener la proporción */
+display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
+margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+
+#btn{
+position:absolute;
+top:10px;
+right:10px;
+z-index:1000;
+background:white;
+}
+
+.leaflet-tooltip {
+font-family: 'Roboto', sans-serif;
+position: absolute;
+padding: 1px 3px;
+background: white;
+border: none;
+box-shadow: none;
+color: rgb(0, 0, 0);
+font-size: 9px;
+text-align: center;
+}
+
+td {
+text-align: left;
+}
+
+th{
+vertical-align: middle;
+text-align: left;
+}

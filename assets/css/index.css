@@ -1,0 +1,101 @@
+/* BACKGROUND */
+
+body{
+  background-image: linear-gradient(rgba(63, 59, 59, 0.6), rgba(70, 57, 57, 0.5)), url("../../img/background_nac.jpg");
+  background-attachment: fixed!important;
+}
+ 
+footer{
+    opacity:0.8;
+}
+@media(max-width: 550px){
+    
+    h5{ 
+    font-size: 4vw;
+  }
+
+  #title{
+    font-size: 5.5vw;
+  }
+
+  .card-cont{
+    font-size: 3.5vw;
+  }
+
+  #sub{
+    font-size: 4vw;
+  }
+ 
+  .card-img-top{
+    max-height: 300px;
+  }
+}
+
+/*TÍTULO RESPONSIVE*/
+
+@media(max-width: 550px){
+  .navbar-brand{
+    font-size: 4vw;
+  }
+
+  #logo{
+    width: 35px;
+    height: 35px;
+  }  
+        
+  .navbar-collapse a{
+    font-size: 3.5vw;
+  }
+}
+        
+.img {
+    vertical-align: middle;
+  }
+
+  td {
+    vertical-align: middle;
+    text-align: left;
+  }
+        
+  th{
+    vertical-align: middle;
+    text-align: left;
+    }
+
+#barra-media {
+  background-color: rgb(130, 152, 68, 0.9);
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: linear-gradient( rgb(130, 152, 68), rgb(125, 154, 29));
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar-toggler{
+    background-color: rgba(241, 212, 113, 0.808);
+    margin-top: 1px;
+  }
+  
+  .navbar-toggler-icon{
+    width: 20px;
+  }
+  
+  .dropdown-menu {
+    background: linear-gradient( rgba(247, 210, 130, 0.658), rgba(248, 228, 164, 0.63), rgba(248, 205, 111, 0.705));
+    margin-top: 2px;
+    font-size: small;
+  }
+  
+  a:link, a:visited, a:hover, a:active {
+      color: #000000;
+      text-decoration: none;
+  }
+  
+  .dropdown-menu > li > a:hover {
+      background-image: none;
+      background-color: rgba(247, 213, 62, 0.568);
+  }
+
