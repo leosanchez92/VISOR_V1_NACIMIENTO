@@ -43,7 +43,7 @@ html, body, #container {
   /*background: linear-gradient( rgb(37, 150, 88), rgb(17, 148, 30));*/
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  z-index: 999;
+  z-index: 9999;
 }
 
 .navbar-toggler{
