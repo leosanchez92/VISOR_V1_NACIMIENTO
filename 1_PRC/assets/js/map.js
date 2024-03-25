@@ -63,12 +63,12 @@ osmRadio.addEventListener('change', function() {
 function styleLimite(feature) {
     return{
       fillOpacity:0,
-      opacity: 0.8,
+      opacity: 1,
       color: 'rgba(219,58,58, 1.0)',
       //dashArray: '10,5', (Línea punteada, mayor valor menos segmentos)
       lineCap: 'butt',  
       lineJoin: 'round',  //(Uniones, redondeadas o rectas)
-      weight: 3.0,
+      weight: 4.0,
       fill: false,
       fillOpacity: 0.8,
       fillColor: 'rgba(229,182,54,0.0)',
@@ -96,15 +96,14 @@ var lu_nac = L.geoJson(limiteUrbano, {
   });
   
   
-
-  
 /* TOAST */
 
 var toastElement = document.getElementById('miToast');
 var toast = new bootstrap.Toast(toastElement);
 toast.show()
 
-L.control.custom({
+/* CONTROL */
+var controlLayer = L.control.custom({
     position: 'topright',
     content: '<button id="mostrarToastBtn" type="button" class="btn btn-success">' +
         '<i class="fa fa-layer-group"></i>' +

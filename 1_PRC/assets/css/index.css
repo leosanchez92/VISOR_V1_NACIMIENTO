@@ -1,9 +1,17 @@
+/*
+Estilos para página de mapa Visor Nacimiento
+Versión 2.0
+Autor: Nelson Sánchez Alarcón
+Fecha: Marzo-2024
+*/
 
+/* == ESTILOS GENERALES ==*/
 body {
-  /*ancho del navbar*/
+  /*coincidir con ancho del navbar*/
   padding-top: 58px;
 }
-@media (max-width: 550px) {  /*Para ajuste responsive*/
+
+@media (max-width: 550px) {  /*Para ajuste responsive del body*/
   body{
     padding-top: 48px
   };
@@ -22,17 +30,24 @@ html, body, #container {
   width: auto;
 }
 
-/* HEADER/NAVBAR */
+.list-group-item img {
+  max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+
+/* == HEADER/NAVBAR ==*/
 .navbar {
-  /*background: linear-gradient( rgb(236, 180, 58), rgb(231, 182, 19), rgb(241, 168, 11));*/
-  background: linear-gradient( rgb(37, 150, 88), rgb(17, 148, 30));
+  /*background: linear-gradient( rgb(37, 150, 88), rgb(17, 148, 30));*/
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   z-index: 999;
 }
 
 .navbar-toggler{
-  background-color: rgba(113, 241, 126, 0.808);
+  /*background-color: rgba(113, 241, 126, 0.808);*/
   margin-top: 1px;
 }
 
@@ -41,22 +56,116 @@ html, body, #container {
 }
 
 .dropdown-menu {
-  background: linear-gradient( rgba(21, 147, 77, 0.515), rgba(157, 255, 166, 0.613));
+  /*background: linear-gradient( rgba(40,167,69, 0.6), rgba(40,167,69, 0.6));*/
   margin-top: 2px;
   font-size: small;
 }
 
 a:link, a:visited, a:hover, a:active {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 .dropdown-menu > li > a:hover {
-    background-image: none;
-    background-color: rgba(66, 198, 92, 0.568);
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.568);
 }
 
-/*MAP*/
+      
+/* Scrollbar custom */
+::-webkit-scrollbar {
+  width: 20px;
+}
+        
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+        
+::-webkit-scrollbar-thumb {
+  background-color: #afb9bc;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+        
+::-webkit-scrollbar-thumb:hover {
+  background-color: #474949;
+}
+        
+/* #### SELECTOR DE CAPAS #### */
+/* == ACORDEON SELECTOR DE CAPAS == */
+.accordion-button{
+  height: 25px;
+  font-size: 14px;
+  font-weight: bold ;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 .25rem rgba(93, 239, 137, 0)
+}
+
+.accordion-button:not(.collapsed){
+  color: white;
+}
+
+/*Estilo botón de cierre del acordeón*/
+.accordion-button:not(.collapsed)::after, .accordion-button::after{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/*Estilo 2 botón de cierre del acordeón*/
+.btn-close {
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  opacity: .9
+}
+
+/* == TOAST SELECTOR DE CAPAS == */
+#miToast {
+  position: absolute;
+  right: 50px;
+  top: 68px;
+  z-index: 1000; /* Ajusta la capa de apilamiento según sea necesario */
+  width: 300px
+}
+
+.toast-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.list-group{
+  font-size: 14px;
+}
+
+.layerLabel:hover{
+  color: rgb(2, 89, 2);
+  cursor: pointer;
+}
+
+/* TOAST RESPONSIVE */
+@media (max-width: 400px) {
+  .accordion-button, .list-group {
+    font-size: 11px; 
+  }
+
+@media(max-width: 550px){
+#miToast {
+  position: fixed;
+  right: 50px;
+  top: 54px;
+  z-index: 1000; /* Ajusta la capa de apilamiento según sea necesario */
+  width: 60%;
+    }
+
+.toast-body {
+  max-height: 500px;
+  overflow-y: auto;
+    }
+  }
+}
+
+/* == ELEMENTOS MAP Y ADD-ONS == */
 .info { 
   padding: 10px 10px; 
   font-size: 14px/25px; 
@@ -72,38 +181,38 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .leaflet-popup-content-wrapper {
-      background: rgba(255, 255, 255, 0.774);
-      color: rgb(0, 0, 0);
-      font-size: 12px;
-      line-height: 24px;
-      border-radius: 5px;
-      max-width: 250px;
-      font-family: 'Roboto', sans-serif;
+  background: rgba(255, 255, 255, 0.774);
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  line-height: 24px;
+  border-radius: 5px;
+  max-width: 250px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .leaflet-popup-tip {
-    background: rgba(255, 255, 255, 0.774);
-    box-shadow: 10px ;
+  background: rgba(255, 255, 255, 0.774);
+  box-shadow: 10px ;
 }
 
-.leaflet-control-layers,
+/*.leaflet-control-layers,
 .leaflet-control-layers label {
-    overflow: normal;
-    font-weight: normal;
-    margin-bottom: 0px;
-    font-family: 'Roboto', sans-serif;
-    vertical-align: middle;
+  overflow: normal;
+  font-weight: normal;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: middle;
 }
 
 .leaflet-control-layers-list input[type="radio"], input[type="checkbox"] {
     margin: 3px;
   }
-
-  .search-tip b {
-    float: right;
-    clear: left;
-    padding: 0 4px;
-    margin-left: 4px;
+*/
+.search-tip b {
+  float: right;
+  clear: left;
+  padding: 0 4px;
+  margin-left: 4px;
  
 }
 
@@ -140,58 +249,42 @@ a:link, a:visited, a:hover, a:active {
   vertical-align: middle;
 };
 
-/*TÍTULO RESPONSIVE*/
-@media(max-width: 550px){
-  .navbar-brand{
-  font-size: 4vw;
-}
-  #logo{
-    width: 35px;
-    height: 35px;
-  }  
-
-  .navbar-collapse a{
-    font-size: 3.5vw;
-  }
-}
-
 .img {
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 .list-group-item img {
-max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
-height: auto; /* Altura automática para mantener la proporción */
-display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
-margin: 0 auto; /* Centrar la imagen horizontalmente */
+  max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
 
-
 #btn{
-position:absolute;
-top:10px;
-right:10px;
-z-index:1000;
-background:white;
+  position:absolute;
+  top:10px;
+  right:10px;
+  z-index:1000;
+  background:white;
 }
 
 .leaflet-tooltip {
-font-family: 'Roboto', sans-serif;
-position: absolute;
-padding: 1px 3px;
-background: white;
-border: none;
-box-shadow: none;
-color: rgb(0, 0, 0);
-font-size: 9px;
-text-align: center;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  padding: 1px 3px;
+  background: white;
+  border: none;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+  font-size: 9px;
+  text-align: center;
 }
 
 td {
-text-align: left;
+  text-align: left;
 }
 
 th{
-vertical-align: middle;
-text-align: left;
+  vertical-align: middle;
+  text-align: left;
 }

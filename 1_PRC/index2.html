@@ -6,10 +6,9 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>Visor Territorial Nacimiento</title>
-
-   
+    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/index.css" />
+    
 
     <!--Frameworks-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
@@ -21,7 +20,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="assets/css/L.Control.Locate.scss" />
     <link rel="stylesheet" href="assets/css/leaflet-search.css" />
@@ -29,7 +28,6 @@
     <link rel="stylesheet" href="assets/css/easy-button.css"/>
     <link rel="stylesheet" href="assets/css/L.Control.Sidebar.css"/>
     
-    <script src="data/lu_nac.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
@@ -37,10 +35,7 @@
     <script src="assets/js/L.Control.Locate.js"></script>
     <script src="assets/js/leaflet-search.js"></script>
     <script src="assets/js/leaflet-measure.js"></script>
-    <script src="assets/js/leaflet.groupedlayercontrol.min.js"></script>
-    <script src="assets/js/easy-button.js"></script>
     <script src="assets/js/Leaflet.Control.Custom.js"></script>
-    <script src="assets/js/L.Control.Sidebar.js"></script>
     
     <!--Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
@@ -52,200 +47,62 @@
     <meta name="theme-color" content="#ffffff">
 
     <!--Layers-->
+    <script src="data/lu_nac.js"></script>
     <script src="data/prc_zonas.js"></script>
-    <script src="data/luc.js"></script>
 
     <style>
-        /*TÍTULO RESPONSIVE*/
-        @media(max-width: 550px){
-            .navbar-brand{
-            font-size: 4vw;
+    /* == TÍTULO RESPONSIVE == */
+    @media(max-width: 550px){
+      .navbar-brand{
+        font-size: 4vw;
           }
-            #logo{
-              width: 35px;
-              height: 35px;
-            }  
-        
-            .navbar-collapse a{
-              font-size: 3.5vw;
-            }
+      #logo{
+        width: 35px;
+        height: 35px;
+          }          
+      .navbar-collapse a{
+        font-size: 3.5vw;
           }
-        
-        .img {
-          vertical-align: middle;
         }
-
-        .list-group-item img {
-        max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
-        height: auto; /* Altura automática para mantener la proporción */
-        display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
-        margin: 0 auto; /* Centrar la imagen horizontalmente */
-    }
-
-
-        #btn{
-          position:absolute;
-          top:10px;
-          right:10px;
-          z-index:1000;
-          background:white;
-        }
-        
-        .leaflet-tooltip {
-          font-family: 'Roboto', sans-serif;
-          position: absolute;
-          padding: 1px 3px;
-          background: white;
-          border: none;
-          box-shadow: none;
-          color: rgb(0, 0, 0);
-          font-size: 9px;
-          text-align: center;
-        }
-        
-        td {
-          text-align: left;
-        }
-        
-        th{
-          vertical-align: middle;
-          text-align: left;
-        }
-
-        .accordion-button{
-          height: 25px;
-          background-color: blue;
-          font-size: 14px;
-          font-weight: bold ;
-          color: white;
-        }
-        
-    
-
-        .accordion-button:focus {
-          box-shadow: 0 0 0 .25rem rgba(93, 239, 137, 0)
-        }
-
-        .accordion-button:not(.collapsed){
-          color: white;
-        }
-        
-        .accordion-button:not(.collapsed)::after, .accordion-button::after{
-          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-        }
-
-.btn-close {
-  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
-  opacity: .9
-}
-
-        #miToast {
-    position: absolute;
-    right: 50px;
-    top: 68px;
-    z-index: 1000; /* Ajusta la capa de apilamiento según sea necesario */
-    width: 300px
-}
-
-
-.toast-body {
-  max-height: 500px;
-  overflow-y: auto;
-}
-
-.list-group{
-  font-size: 14px;
-}
-
-@media (max-width: 400px) {
-        .accordion-button, .list-group {
-            font-size: 11px; /* Tamaño de fuente para pantallas más grandes */
-        }
-
-@media(max-width: 550px){
-  #miToast {
-    position: fixed;
-    right: 50px;
-    top: 54px;
-    z-index: 1000; /* Ajusta la capa de apilamiento según sea necesario */
-    width: 60%;
-          }
-
-          .toast-body {
-  max-height: 500px;
-  overflow-y: auto;
-}
-        }}
-        
-
-         /* custom scrollbar */
-::-webkit-scrollbar {
-  width: 20px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: white;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #afb9bc;
-  border-radius: 20px;
-  border: 6px solid transparent;
-  background-clip: content-box;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #474949;
-}
-
-        </style>
-
+    </style>
+ <link rel="stylesheet" href="assets/css/index.css" />   
 </head>
+
 <body>
 <!--NAVBAR-->
 <header>
-    <nav class="navbar navbar-expand-xl navbar-light fixed-top lex-sm-nowrap flex-wrap py-1" aria-label="Fifth navbar example">
-      <div class="container-fluid col-12 col-md-12 col-lg-10 col-xl-10">
-          <a class="navbar-brand" href="#"><b>PLAN REGULADOR COMUNAL</b></a>
-          <div style="padding-left: 4px; padding-right: 8px; justify-content: center;">
-            <a href="http://www.nuevaimperial.cl/" target="_blank"><img id="logo" src="img/logo_nac.png" height="50" width="50" alt="logomuni" style="margin-left: 0px; margin-right: 0px;"></a>
-          </div>
+  <nav class="navbar bg-success navbar-expand-xl navbar-light fixed-top flex-sm-nowrap flex-wrap py-1 text-white" aria-label="Fifth navbar example">
+    <div class="container-fluid col-12 col-md-12 col-lg-10 col-xl-10">
+      <a class="navbar-brand text-white" href="#"><b>PLAN REGULADOR COMUNAL</b></a>
+        <div style="padding-left: 4px; padding-right: 8px; justify-content: center;">
+          <a href="http://www.nuevaimperial.cl/" target="_blank"><img id="logo" src="img/logo_nac.png" height="50" width="50" alt="logomuni" style="margin-left: 0px; margin-right: 0px;"></a>
+        </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navButton" aria-controls="navButton" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         <div class="collapse navbar-collapse" id="navButton">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#aboutModal" aria-current="page" href="#">Ayuda visor</a>
+              <a class="nav-link active text-white" data-bs-toggle="modal" data-bs-target="#aboutModal" aria-current="page" href="#">Ayuda visor</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link text-white" href="../index.html">Inicio</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Descargas</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown05">
-                  <li><a class="dropdown-item" target="_blank" href="data/pdf/prc_imp_plano.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>  Plano PRC <b>[PDF]</b></a></li>
-                  <li><a class="dropdown-item" target="_blank" href="data/pdf/prc_imp_uso.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>  Usos de suelo PRC <b>[PDF]</b></a></li>
-                  <li><a class="dropdown-item" href="data/kml/prc_imp.kmz"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Plano PRC <b>[KML]</b></a></li>
-                  <li><a class="dropdown-item" href="data/kml/PRC_limite.kmz"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Límite urbano PRC <b>[KML]</b></a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Información territorial</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown06">
-                  <li><a class="dropdown-item" href="../1_TERRITORIO/index.html"> Establecimientos educacionales</a></li>
-                  <li><a class="dropdown-item" href="../2_JJVV/index.html"> Juntas de vecinos</a></li>
-                  <li><a class="dropdown-item" href="../5_SALUD/index.html"> Establecimientos de salud</a></li>
+              <li class="nav-item dropdown text">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown06" data-bs-toggle="dropdown" aria-expanded="false">Información territorial</a>
+                <ul class="dropdown-menu  bg-success" aria-labelledby="dropdown06">
+                  <li><a class="dropdown-item text-white" href="../1_TERRITORIO/index.html"> Establecimientos educacionales</a></li>
+                  <li><a class="dropdown-item text-white" href="../2_JJVV/index.html"> Juntas de vecinos</a></li>
+                  <li><a class="dropdown-item text-white" href="../5_SALUD/index.html"> Establecimientos de salud</a></li>
                 </ul>
               </li> 
           </ul>
         </div>      
-      </div>
-    </nav>
+    </div>
+  </nav>
     
-
 <!-- Modal inicio -->
-<div class="modal fade" id="aboutModal1" tabindex="-1" aria-labelledby="modalAbout1" aria-hidden="true">
+  <div class="modal fade" id="aboutModal1" tabindex="-1" aria-labelledby="modalAbout1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
@@ -253,10 +110,10 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Acepto"></button>
         </div>
         <div class="modal-body" style="text-align:justify">
-           <h5 style="text-align:center">¡Bienvenido/a al visor territorial de la comuna de Nueva Imperial!</h5>
+           <h5 style="text-align:center">¡Bienvenido/a al visor territorial de la comuna de Nacimiento!</h5>
            Para conocer detalles y obtener ayuda acerca del uso e interacción con las distintas funcionalidades y herramientas disponibles en la plataforma, seleccionar <img src="img/ayuda_visor.png" alt="ayuda" style="height:25px;width:105px;border-radius: 5px;"> en la barra superior.<hr>
            <b>La información aquí disponible es sólo de caracter referencial.</b>
-           <p style="text-align:center">Departamento de SIG - SECPLAN <br><img src="img/logo_muni.jpg" alt="logomuni" style="width:180px; margin-top:20px"></p>
+           <p style="text-align:center">DOM Municipalidad de Nacimiento <br><img src="img/logo_nac.png" alt="logomuni" style="width:180px; margin-top:20px"></p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Acepto</button>
@@ -319,20 +176,20 @@
 
 <!--MAP-->
 <div class="toast-container">
-<div id="miToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+<div id="miToast" class="toast" role="status" aria-live="polite" aria-atomic="true" data-bs-autohide="false">
   <div class="toast-header text-white bg-success">
       <strong class="me-auto">SELECTOR DE CAPAS</strong>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button>
   </div>
   <div class="toast-body">
-    <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion" id="accordionGroupLayers">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-          <button class="accordion-button bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          <button class="accordion-button bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#groupBasemap1" aria-expanded="true" aria-controls="groupBasemap1">
             Mapas base
           </button>
         </h2>
-        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div id="groupBasemap1" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
           <div class="accordion-body">
               <ul class="list-group">
                   <li class="list-group-item">
@@ -344,8 +201,8 @@
                     <label class="form-check-label" for="esriSatRadio">&nbsp ESRI Satélite</label>
                   </li>
                   <li class="list-group-item">
-                    <input class="form-check-input" type="radio" name="mapLayer" id="esriSatRadio">
-                    <label class="form-check-label" for="esriSatRadio">&nbsp Carto Light</label>
+                    <input class="form-check-input" type="radio" name="mapLayer" id="cartoLight">
+                    <label class="form-check-label" for="cartoLight">&nbsp Carto Light</label>
                   </li>
                 </ul>
           </div>
@@ -353,29 +210,55 @@
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-          <button class="accordion-button bg-success collapsed show" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+          <button class="accordion-button bg-success collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#groupLayer2" aria-expanded="true" aria-controls="groupLayer2">
             Capas de mapa
           </button>
         </h2>
-        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+        <div id="groupLayer2" class="accordion-collapse show" aria-labelledby="panelsStayOpen-headingTwo">
           <div class="accordion-body">
-          <ul class="list-group list-group-flush"> 
+          <ul class="list-group list-group-flush">
+          <!--CAPAS DE MAPA--> 
+            <!--Elemento 1--> 
             <li class="list-group-item">
               <div class="form-check form-switch">
+                <!--Elemento 1 - Input (ID para listener)--> 
                 <input class="form-check-input" type="checkbox" id="luNac" checked>
-                <label class="form-check-label" for="flexSwitchCheckChecked"><b>LÍMITE URBANO</b></label>
+                <label class="form-check-label layerLabel" for="collapseLeyenda1" data-bs-toggle="collapse" data-bs-target="#collapseLeyenda1" aria-expanded="true" aria-controls="collapseLeyenda1"><b>LÍMITE URBANO</b></label>
               </div>
+              <div class="collapse show" id="collapseLeyenda1">
+                <!--Elemento 1 - Leyenda--> 
+                <img src="legend/lu_legend.png" alt="Leyenda PRC">
+            </div>
             </li> 
+            <!--Elemento 2--> 
             <li class="list-group-item">
             <div class="form-check form-switch">
+              <!--Elemento 2 - Input (ID para listener)--> 
               <input class="form-check-input" type="checkbox" id="zonPRC" checked>
-              <label class="form-check-label" for="flexSwitchCheckChecked"><b>ZONIFICACIÓN PRC</b></label>
+              <label class="form-check-label layerLabel" for="collapseLeyenda2" data-bs-toggle="collapse" data-bs-target="#collapseLeyenda2" aria-expanded="true" aria-controls="collapseLeyenda2"><b>ZONIFICACIÓN PRC</b></label>
             </div>
-            <img src="legend/prc_legend.png" alt="Leyenda PRC">
+            <div class="collapse show" id="collapseLeyenda2">
+              <!--Elemento 2 - Leyenda--> 
+              <img src="legend/prc_legend.png" alt="Leyenda PRC">
+            </div>
           </li>
-          
           </ul>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button bg-success collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#groupDescargas3" aria-expanded="true" aria-controls="groupDescargas3">
+            Descargas
+          </button>
+        </h2>
+        <div id="groupDescargas3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">DESCARGA 1</li>
+              <li class="list-group-item">DESCARGA 2</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -383,13 +266,30 @@
   </div>
 </div>
 </div>
-
 <div id="map" class=""></div>
-
-
-
-
 <script src="assets/js/map.js"></script>
-
+<!--<script>
+  // MODAL INICIO
+window.onload = function () {
+        OpenBootstrapPopup();
+    };
+    function OpenBootstrapPopup() {
+        $("#aboutModal1").modal('show');
+    }
+</script>
+-->
 </body>
 </html>
+
+
+
+      <!-- ANTIGUO DESCARGAS
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Descargas</a>
+                <ul class="dropdown-menu bg-success text-danger" aria-labelledby="dropdown05">
+                  <li><a class="dropdown-item" target="_blank" href="data/pdf/prc_imp_plano.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>  Plano PRC <b>[PDF]</b></a></li>
+                  <li><a class="dropdown-item" target="_blank" href="data/pdf/prc_imp_uso.pdf"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i>  Usos de suelo PRC <b>[PDF]</b></a></li>
+                  <li><a class="dropdown-item" href="data/kml/prc_imp.kmz"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Plano PRC <b>[KML]</b></a></li>
+                  <li><a class="dropdown-item" href="data/kml/PRC_limite.kmz"><i class="fa fa-earth-americas" aria-hidden="true"></i>  Límite urbano PRC <b>[KML]</b></a></li>
+                </ul>
+              </li>-->
