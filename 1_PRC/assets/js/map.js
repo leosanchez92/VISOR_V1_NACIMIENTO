@@ -55,8 +55,85 @@ osmRadio.addEventListener('change', function() {
     }
   });
 
-
 // CAPAS
+// PANES PARA ZINDEX DE CAPAS
+
+map.createPane("lunac_").style.zIndex = 450;
+map.createPane("prc_").style.zIndex = 420;
+
+// PRC NACIMIENTO
+
+function getColor(d) {
+    return  d == "ZAM" ? '#FF9F7F' :
+            d == "ZAMAP" ? '#CCCC66' :
+            d == "ZAP" ? '#990099' :
+            d == "ZCC" ? '#FF7F00' :
+            d == "ZEC" ? '#C0C0C0' :
+            d == "ZED" ? '#BFFF00' :
+            d == "ZexAP" ? '#FF7FFF' :
+            d == "ZexR" ? '#CCB266' :
+            d == "ZexR 1" ? '#CCB266' :
+            d == "ZexR 2" ? '#FF7F7F' :
+            d == "ZM 1" ? '#FF7F9F' :
+            d == "ZM 2" ? '#FF7F9F' :
+            d == "ZMC" ? '#FF3F00' :
+            d == "ZPR 1" ? '#7FFFBF' :
+            d == "ZPR 2" ? '#7FFF00' :
+            d == "ZPR 3" ? '#009900' :
+            d == "ZPR 4" ? '#99CC66' :
+            d == "ZPR 5" ? '#DFFF7F' :
+            d == "ZR" ? '#FFFF7F' :
+            d == "ZR 1" ? '#FFFF7F' :
+            d == "ZR 2" ? '#FFFF7F' :
+            d == "ZR 4" ? '#FFFF7F' :
+            d == "ZRC" ? '#FFFF00' :
+            d == "ZRC 1" ? '#FFFF00' :
+            d == "ZRC 2" ? '#FFFF00' :
+            d == "ZRM 1" ? '#FFBF00' :
+            d == "ZRM 2" ? '#FFBF00' :
+            d == "ZST" ? '#99CC00' :
+                            '#db3c7c';
+}
+
+function stylePRC(feature) {
+  return{
+    opacity: 1,
+    color: 'rgb(0, 0, 0)',
+    //dashArray: '10,5', (Línea punteada, mayor valor menos segmentos)
+    lineCap: 'butt',  
+    lineJoin: 'round',  //(Uniones, redondeadas o rectas)
+    weight: 0.5,
+    fill: true,
+    pane: "prc_",
+    fillOpacity: 0.6,
+    fillColor: getColor(feature.properties.NUMZON), // campo en el cual se basa getColor para asociar un color
+    interactive: true,
+}};
+
+function onEachFeaturePRC(feature, layer) {
+    var popupContent =  '<table class="table table-responsive table-bordered table-sm table-striped">\
+                            <tr>\
+                              <th scope="" class="align-top">ZONA</th>\
+                              <td>' +  (feature.properties.NUMZON) + '</td>\
+                            </tr>\
+                            <tr>\
+                              <th scope="" class="align-top">GLOSA</th>\
+                              <td>' +  (feature.properties.GLOSA_ZONA) + '</td>\
+                            </tr>\
+                            </table>\
+                            '
+                            ;
+      layer.bindPopup(popupContent,{
+        maxHeight: 200,
+        maxWidth: 350
+      });
+  }
+
+  var prc_zonas = L.geoJson(prcZonas, {
+    style: stylePRC,
+    onEachFeature: onEachFeaturePRC,
+    zIndex: 500
+  }).addTo(map);
 
 // LU NACIMIENTO
 
@@ -70,37 +147,43 @@ function styleLimite(feature) {
       lineJoin: 'round',  //(Uniones, redondeadas o rectas)
       weight: 4.0,
       fill: false,
+      pane: "lunac_",
       fillOpacity: 0.8,
       fillColor: 'rgba(229,182,54,0.0)',
       interactive: false,
-  }}
+  }};
 
 var lu_nac = L.geoJson(limiteUrbano, {
     style: styleLimite,
+    zIndex: 505
   }).addTo(map);
 
-  /* SELECTOR CAPAS NORMALES */
+/* SELECTOR CAPAS 2.0 */
 
-  const lunac = document.getElementById('luNac');
-  
-  lunac.addEventListener('change', function() {
-    if (this.checked) {
-        // Acción cuando el switch activo está marcado (por ejemplo, activar la capa en tu mapa Leaflet)
-        // Suponiendo que 'mapa' es tu objeto de mapa en Leaflet y 'lu_nac' es la capa que deseas activar
-        map.addLayer(lu_nac);
-    } else {
-        // Acción cuando el switch activo no está marcado (por ejemplo, desactivar la capa en tu mapa Leaflet)
-        // Suponiendo que 'mapa' es tu objeto de mapa en Leaflet y 'lu_nac' es la capa que deseas desactivar
-        map.removeLayer(lu_nac);
-    }
-  });
-  
-  
+// Función para agregar o quitar una capa según el estado del switch
+function toggleLayer(layer, switchElement) {
+    switchElement.addEventListener('change', function() {
+        if (this.checked) {
+            map.addLayer(layer);
+        } else {
+            map.removeLayer(layer);
+        }
+    });
+}
+
+// ID de input switch para cada capa
+const lunac = document.getElementById('luNac'); // ID switch
+const prcZona = document.getElementById('zonPRC'); // ID switch
+
+// Llamar a la función toggleLayer para cada capa/switch
+toggleLayer(lu_nac, lunac);
+toggleLayer(prc_zonas, prcZona);
+
 /* TOAST */
 
 var toastElement = document.getElementById('miToast');
 var toast = new bootstrap.Toast(toastElement);
-toast.show()
+    toast.show()
 
 /* CONTROL */
 var controlLayer = L.control.custom({
@@ -135,5 +218,32 @@ var controlLayer = L.control.custom({
 var zoom = L.control.zoom({
     zoomInTitle: 'Acercar',
     zoomOutTitle: 'Alejar'
-  }).addTo(map);
+}).addTo(map);
 
+/* SELECTOR DE CAPAS BRUTO
+
+const lunac = document.getElementById('luNac'); // getElement: el ID del input switch
+  
+lunac.addEventListener('change', function() {
+  if (this.checked) {
+      // Acción cuando el switch activo está marcado
+      map.addLayer(lu_nac);
+  } else {
+      // Acción cuando el switch activo no está marcado 
+      map.removeLayer(lu_nac);
+  }
+});
+
+const prcZona = document.getElementById('zonPRC');
+
+prcZona.addEventListener('change', function() {
+  if (this.checked) {
+      // Acción cuando el switch activo está marcado 
+      map.addLayer(prc_zonas); // var de capa llamada 
+  } else {
+      // Acción cuando el switch activo no está marcado
+      map.removeLayer(prc_zonas); //var de capa llamada
+  }
+});
+
+*/

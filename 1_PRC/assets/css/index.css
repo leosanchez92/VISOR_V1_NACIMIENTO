@@ -37,7 +37,6 @@ html, body, #container {
   margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
 
-
 /* == HEADER/NAVBAR ==*/
 .navbar {
   /*background: linear-gradient( rgb(37, 150, 88), rgb(17, 148, 30));*/
@@ -71,7 +70,6 @@ a:link, a:visited, a:hover, a:active {
   background-color: rgba(255, 255, 255, 0.568);
 }
 
-      
 /* Scrollbar custom */
 ::-webkit-scrollbar {
   width: 20px;
@@ -181,11 +179,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .leaflet-popup-content-wrapper {
-  background: rgba(255, 255, 255, 0.774);
-  color: rgb(0, 0, 0);
+  color: rgb(218, 14, 14);
   font-size: 12px;
+  font-weight: 400;
   line-height: 24px;
-  border-radius: 5px;
+  border-radius: 0px;
   max-width: 250px;
   font-family: 'Roboto', sans-serif;
 }
