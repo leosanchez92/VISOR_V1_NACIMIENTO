@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>propiedad_fiscal</name>
+<Style id="style1">
+	<LineStyle>
+		<color>40000000</color>
+		<width>3</width>
+	</LineStyle>
+	<PolyStyle>
+		<color>d1995a8d</color>
+		<fill>1</fill>
+		<outline>1</outline>
+	</PolyStyle>
+</Style>
+<Placemark>
+<name>EL PALQUI 811 COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: EL PALQUI 811 COMUNA NACIMIENTO
+<br/>DESCRIPCIO: PROIEDAD FISCAL HERENCIA ROL SII 86-6 COMUNA DE NACIMIENTO
+<br/>ID: 1244859.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: CONCESION GRATUITA A CORTO PLAZO
+<br/>ADMIN: CONCESION USO GRATUITO ILUSTRE MUNICIPALIDAD DE NACIMIENTO
+<br/>INSDOM: FOJAS 1182 NUMERO 521 ANO 2018 CBR NACIMIENTO
+<br/>SUPERFICIE: 569,15 M2
+<br/>ROL_SII: 86-6
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[1]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[EL PALQUI 811 COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[PROIEDAD FISCAL HERENCIA ROL SII 86-6 COMUNA DE NACIMIENTO]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[1244859.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[CONCESION GRATUITA A CORTO PLAZO]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[CONCESION USO GRATUITO ILUSTRE MUNICIPALIDAD DE NACIMIENTO]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 1182 NUMERO 521 ANO 2018 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[569,15 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[86-6]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.67513120196439,-37.5053102998258,0.000
+					-72.67513120196439,-37.5053102998258,0.000
+					-72.67509422226328,-37.505240612819605,0.000
+					-72.67478895793859,-37.505296617530696,0.000
+					-72.67458096565329,-37.5053538972113,0.000
+					-72.67464666621228,-37.50546509516631,0.000
+					-72.67513120196439,-37.5053102998258,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>JORGE MONTT 539 AL 549 COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: JORGE MONTT 539 AL 549 COMUNA NACIMIENTO
+<br/>DESCRIPCIO: PUEBLO NACIMIENTO ROL SII 63-4 CARPETA 4-0
+<br/>ID: 251273.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: NULL
+<br/>ADMIN: 4 ADMINISTRACIONES
+<br/>INSDOM: FOJAS 127VTA NUMERO 283 ANO 1907 CBR NACIMIENTO
+<br/>SUPERFICIE: 412,5 M2
+<br/>ROL_SII: 63-4
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[2]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[JORGE MONTT 539 AL 549 COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[PUEBLO NACIMIENTO ROL SII 63-4 CARPETA 4-0]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[251273.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[NULL]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[4 ADMINISTRACIONES]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 127VTA NUMERO 283 ANO 1907 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[412,5 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[63-4]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.66977992028212,-37.50337394127105,0.000
+					-72.6700123144034,-37.50332890620641,0.000
+					-72.66992411419614,-37.50304002853488,0.000
+					-72.66969172093661,-37.5030850634561,0.000
+					-72.66977992028212,-37.50337394127105,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>SAN MARTIN 480 COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: SAN MARTIN 480 COMUNA NACIMIENTO
+<br/>DESCRIPCIO: PUEBLO NACIMIENTO ANIBAL PINTO ROL SII 44-10 CARPETA 5-0 PROPIEDAD FISCAL
+<br/>ID: 251274.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: DESTINACION
+<br/>ADMIN: DESTINACION SEREMI DE EDUCACION
+<br/>INSDOM: FOJAS 128 NUMERO 284 ANO 1907 CBR NACIMIENTO
+<br/>SUPERFICIE: 3522,72 M2
+<br/>ROL_SII: 44-10
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[3]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[SAN MARTIN 480 COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[PUEBLO NACIMIENTO ANIBAL PINTO ROL SII 44-10 CARPETA 5-0 PROPIEDAD FISCAL]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[251274.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[DESTINACION]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[DESTINACION SEREMI DE EDUCACION]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 128 NUMERO 284 ANO 1907 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[3522,72 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[44-10]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.67204503328819,-37.50127934152765,0.000
+					-72.67151513745272,-37.50138691408794,0.000
+					-72.67170078436679,-37.502011643843,0.000
+					-72.67224529558236,-37.50189916012549,0.000
+					-72.67204503328819,-37.50127934152765,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>PREDIO LAS POZAS HOSPITAL NACIMIENTO COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: PREDIO LAS POZAS HOSPITAL NACIMIENTO COMUNA NACIMIENTO
+<br/>DESCRIPCIO: PROPIEDAD FISCAL ROL SII 96-19 HOSPITAL DE NACIMIENTO COMUNA NACIMIENTO
+<br/>ID: 1229137.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: NULL
+<br/>ADMIN: 2 ADMINISTRACIONES
+<br/>INSDOM: FOJAS 765 NUMERO 404 ANO 2020 CBR NACIMIENTO
+<br/>SUPERFICIE: 22390,93 M2
+<br/>ROL_SII: 96-19
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[4]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[PREDIO LAS POZAS HOSPITAL NACIMIENTO COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[PROPIEDAD FISCAL ROL SII 96-19 HOSPITAL DE NACIMIENTO COMUNA NACIMIENTO]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[1229137.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[NULL]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[2 ADMINISTRACIONES]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 765 NUMERO 404 ANO 2020 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[22390,93 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[96-19]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.6777865748813,-37.5066220554975,0.000
+					-72.6756300788338,-37.50711994751299,0.000
+					-72.67588757089922,-37.508047634888506,0.000
+					-72.6781030755448,-37.50768592329221,0.000
+					-72.6777865748813,-37.5066220554975,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>LOTE A Y B SAN FRANCISCO DE MILLAPOA COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: LOTE A Y B SAN FRANCISCO DE MILLAPOA COMUNA NACIMIENTO
+<br/>DESCRIPCIO: FUNDO SAN FRANCISCO DE MILLAPOA ROL SII CARPETA 18-0 PROPIEDAD FISCAL
+<br/>ID: 251277.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: CONCESION GRATUITA A CORTO PLAZO
+<br/>ADMIN: CONCESION USO GRATUITO ILUSTRE MUNICIPALIDAD DE NACIMIENTO
+<br/>INSDOM: FOJAS 100 NUMERO 87 ANO 1961 CBR NACIMIENTO
+<br/>SUPERFICIE: 3364,52 M2
+<br/>ROL_SII: 341-114
+<br/>CLASIFICA: RURAL</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[5]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[LOTE A Y B SAN FRANCISCO DE MILLAPOA COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[FUNDO SAN FRANCISCO DE MILLAPOA ROL SII CARPETA 18-0 PROPIEDAD FISCAL]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[251277.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[CONCESION GRATUITA A CORTO PLAZO]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[CONCESION USO GRATUITO ILUSTRE MUNICIPALIDAD DE NACIMIENTO]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 100 NUMERO 87 ANO 1961 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[3364,52 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[341-114]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[RURAL]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.7220702131797,-37.468361439071295,0.000
+					-72.7216247118038,-37.46775329968901,0.000
+					-72.7207216005385,-37.46807960508059,0.000
+					-72.7211315644223,-37.46871815911809,0.000
+					-72.7220702131797,-37.468361439071295,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>FREIRE 493 LOTE 2 ESQUINA ANIBAL PINTO COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: FREIRE 493 LOTE 2 ESQUINA ANIBAL PINTO COMUNA NACIMIENTO
+<br/>DESCRIPCIO: PROPIEDAD FISCAL ROL SII 44-9 INSCRIPCION POR MINUTA COMUNA NACIMIENTO
+<br/>ID: 746749.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: DESTINACION
+<br/>ADMIN: DESTINACION MINISTERIO DE OBRAS PUBLICAS DIRECCION DE VIALIDAD
+<br/>INSDOM: FOJAS 980 NUMERO 840 ANO 2014 CBR NACIMIENTO
+<br/>SUPERFICIE: 523 M2
+<br/>ROL_SII: 44-9
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[6]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[FREIRE 493 LOTE 2 ESQUINA ANIBAL PINTO COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[PROPIEDAD FISCAL ROL SII 44-9 INSCRIPCION POR MINUTA COMUNA NACIMIENTO]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[746749.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[DESTINACION]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[DESTINACION MINISTERIO DE OBRAS PUBLICAS DIRECCION DE VIALIDAD]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 980 NUMERO 840 ANO 2014 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[523 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[44-9]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.67220644103172,-37.502205897838834,0.000
+					-72.67213133917902,-37.50195268009864,0.000
+					-72.67190066920361,-37.50199736564475,0.000
+					-72.6719623600113,-37.502242071731544,0.000
+					-72.6719623600113,-37.502242071731544,0.000
+					-72.67196504222001,-37.50225058323334,0.000
+					-72.6719677244295,-37.502248455357645,0.000
+					-72.6719677244295,-37.502248455357645,0.000
+					-72.67220644103172,-37.502205897838834,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>ANIBAL PINTO ESQUINA FREIRE LOTE 1 COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: ANIBAL PINTO ESQUINA FREIRE LOTE 1 COMUNA NACIMIENTO
+<br/>DESCRIPCIO: CARPETA 20 PROPIEDAD FISCAL ROL SII 44-9 INSCRIPCION POR MINUTA COMUNA NACIMIENTO
+<br/>ID: 746744.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: CONCESION GRATUITA A LARGO PLAZO
+<br/>ADMIN: CONCESION USO GRATUITO FUNDACION INTEGRA
+<br/>INSDOM: FOJAS 980 NUMERO 840 ANO 2014 CBR NACIMIENTO
+<br/>SUPERFICIE: 824,08 M2
+<br/>ROL_SII: 44-9
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[7]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[ANIBAL PINTO ESQUINA FREIRE LOTE 1 COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[CARPETA 20 PROPIEDAD FISCAL ROL SII 44-9 INSCRIPCION POR MINUTA COMUNA NACIMIENTO]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[746744.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[CONCESION GRATUITA A LARGO PLAZO]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[CONCESION USO GRATUITO FUNDACION INTEGRA]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 980 NUMERO 840 ANO 2014 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[824,08 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[44-9]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.67249454106705,-37.5021515077905,0.000
+					-72.67250258768725,-37.50212810113158,0.000
+					-72.67243285025405,-37.50189828990669,0.000
+					-72.67214317168205,-37.5019451033617,0.000
+					-72.67221827353215,-37.502202576839906,0.000
+					-72.67249454106705,-37.5021515077905,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+<Placemark>
+<name>LASTRA 380 COMUNA NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>NOMBRE: LASTRA 380 COMUNA NACIMIENTO
+<br/>DESCRIPCIO: FUERTE NACIMIENTO ROL SII 40-4 CARPETA 6-0 PROPIEDAD FISCAL
+<br/>ID: 251275.0
+<br/>REGION: 08- REGION DEL BIOBIO
+<br/>COMUNA: NACIMIENTO
+<br/>MODO: CONCESION GRATUITA A LARGO PLAZO
+<br/>ADMIN: CONCESION USO GRATUITO ILUSTRE MUNICIPALIDAD DE NACIMIENTO
+<br/>INSDOM: FOJAS 128 NUMERO 285 ANO 1907 CBR NACIMIENTO
+<br/>SUPERFICIE: 14750,62 M2
+<br/>ROL_SII: 40-4/40-5
+<br/>CLASIFICA: URBANO</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[8]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[LASTRA 380 COMUNA NACIMIENTO]]></value></Data>
+	<Data name="DESCRIPCIO"><displayName>DESCRIPCIO</displayName><value><![CDATA[FUERTE NACIMIENTO ROL SII 40-4 CARPETA 6-0 PROPIEDAD FISCAL]]></value></Data>
+	<Data name="ID"><displayName>ID</displayName><value><![CDATA[251275.0]]></value></Data>
+	<Data name="REGION"><displayName>REGION</displayName><value><![CDATA[08- REGION DEL BIOBIO]]></value></Data>
+	<Data name="COMUNA"><displayName>COMUNA</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="MODO"><displayName>MODO</displayName><value><![CDATA[CONCESION GRATUITA A LARGO PLAZO]]></value></Data>
+	<Data name="ADMIN"><displayName>ADMIN</displayName><value><![CDATA[CONCESION USO GRATUITO ILUSTRE MUNICIPALIDAD DE NACIMIENTO]]></value></Data>
+	<Data name="INSDOM"><displayName>INSDOM</displayName><value><![CDATA[FOJAS 128 NUMERO 285 ANO 1907 CBR NACIMIENTO]]></value></Data>
+	<Data name="SUPERFICIE"><displayName>SUPERFICIE</displayName><value><![CDATA[14750,62 M2]]></value></Data>
+	<Data name="ROL_SII"><displayName>ROL_SII</displayName><value><![CDATA[40-4/40-5]]></value></Data>
+	<Data name="CLASIFICA"><displayName>CLASIFICA</displayName><value><![CDATA[URBANO]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+<MultiGeometry>
+	<Polygon>
+		<outerBoundaryIs>
+			<LinearRing>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-72.66758888845047,-37.50138760544681,0.000
+					-72.66753185755928,-37.501347241905314,0.000
+					-72.66698474153304,-37.50162490707795,0.000
+					-72.66658184168959,-37.50193808135394,0.000
+					-72.66648735502635,-37.50203171107669,0.000
+					-72.66644357014263,-37.50222470619783,0.000
+					-72.66641254154597,-37.50241785111958,0.000
+					-72.66664122388232,-37.50238388497267,0.000
+					-72.6668143517597,-37.502745185304285,0.000
+					-72.66709773018599,-37.502778978955156,0.000
+					-72.66712089791869,-37.502874174891794,0.000
+					-72.66722747758007,-37.50287302786296,0.000
+					-72.66802480257361,-37.50283227204011,0.000
+					-72.66803422175599,-37.50282045260681,0.000
+					-72.66795288530545,-37.50262235146352,0.000
+					-72.66791203413811,-37.502516798533044,0.000
+					-72.66786855679864,-37.502387859305855,0.000
+					-72.6677971611289,-37.502180575915396,0.000
+					-72.66770686749307,-37.50190751665126,0.000
+					-72.66765590017694,-37.50175079234049,0.000
+					-72.66761781017595,-37.50155803757163,0.000
+					-72.66760669992512,-37.501487470025744,0.000
+					-72.667596113382,-37.501418566337776,0.000
+					-72.66758888845047,-37.50138760544681,0.000
+				</coordinates>
+			</LinearRing>
+		</outerBoundaryIs>
+	</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

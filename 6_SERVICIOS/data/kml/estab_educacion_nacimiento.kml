@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>estab_educacion_nacimiento</name>
+<Style id="style1">
+	<IconStyle>
+		<Icon>
+			<href>http://maps.gstatic.com/mapfiles/ms2/micons/red-dot.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Placemark>
+<name>ESCUELA VÍCTOR MANUEL BELTRÁN CARRIMÁN</name>
+<description><![CDATA[<p>
+<br/>RBD: 4466.0
+<br/>DGV_RBD: 0.0
+<br/>NOM_RBD: ESCUELA VÍCTOR MANUEL BELTRÁN CARRIMÁN
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: FUNDO CHOROICO
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: KM. 25 AL SUROESTE DE LA COMUNA DE NACIMIENTO
+<br/>LATITUD: -37.546379
+<br/>LONGITUD: -72.823303</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[1]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4466.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA VÍCTOR MANUEL BELTRÁN CARRIMÁN]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[FUNDO CHOROICO]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[KM. 25 AL SUROESTE DE LA COMUNA DE NACIMIENTO]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.546379]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.823303]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.83147531140804,-37.54099915479898,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA MUNICIPAL CARRIZAL - MENIR</name>
+<description><![CDATA[<p>
+<br/>RBD: 17655.0
+<br/>DGV_RBD: 9.0
+<br/>NOM_RBD: ESCUELA MUNICIPAL CARRIZAL - MENIR
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: CAMINO LA SUERTE MAINTENREHUE
+<br/>NUMERO: 15.0
+<br/>REFERENCIA: CAMINO NACIMIENTO-TRONGOL VIRAR A LA IZQUIERDA EN KM 11. CARRIZAL MENIR, CAMINO LA SUERTE MAINTENREHUE KM 15
+<br/>LATITUD: -37.513882
+<br/>LONGITUD: -72.700478</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[3]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[17655.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[9.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA MUNICIPAL CARRIZAL - MENIR]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[CAMINO LA SUERTE MAINTENREHUE]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[15.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[CAMINO NACIMIENTO-TRONGOL VIRAR A LA IZQUIERDA EN KM 11. CARRIZAL MENIR, CAMINO LA SUERTE MAINTENREHUE KM 15]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.513882]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.700478]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.70095918874071,-37.51402398997776,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA TOQUI LAUTARO</name>
+<description><![CDATA[<p>
+<br/>RBD: 4455.0
+<br/>DGV_RBD: 5.0
+<br/>NOM_RBD: ESCUELA TOQUI LAUTARO
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: GALVARINO
+<br/>NUMERO: 650.0
+<br/>REFERENCIA: GALVARINO 650, POBLACIÓN LAUTARO, NACIMIENTO
+<br/>LATITUD: -37.508678
+<br/>LONGITUD: -72.660347</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[4]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4455.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[5.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA TOQUI LAUTARO]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[GALVARINO]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[650.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[GALVARINO 650, POBLACIÓN LAUTARO, NACIMIENTO]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.508678]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.660347]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.65993680651796,-37.50826386235038,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>LICEO POLIVALENTE MUNICIPAL DE NACIMIENTO</name>
+<description><![CDATA[<p>
+<br/>RBD: 4451.0
+<br/>DGV_RBD: 2.0
+<br/>NOM_RBD: LICEO POLIVALENTE MUNICIPAL DE NACIMIENTO
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: PRIETO
+<br/>NUMERO: 880.0
+<br/>REFERENCIA: ENTRADA SUR:RUTA DE LA MADERA,UNA VEZ CRUZADO EL PUENTE VERGARA, DESVIO A LA DERECHA PRIMER ENTRADA HACIA EL CENTRO DE LA CIUDAD.
+<br/>LATITUD: -37.506809
+<br/>LONGITUD: -72.672203</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[5]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4451.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[LICEO POLIVALENTE MUNICIPAL DE NACIMIENTO]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[PRIETO]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[880.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[ENTRADA SUR:RUTA DE LA MADERA,UNA VEZ CRUZADO EL PUENTE VERGARA, DESVIO A LA DERECHA PRIMER ENTRADA HACIA EL CENTRO DE LA CIUDAD.]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.506809]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.672203]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67172181141524,-37.506860274228906,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>COLEGIO SAN JUAN DE DIOS</name>
+<description><![CDATA[<p>
+<br/>RBD: 17778.0
+<br/>DGV_RBD: 4.0
+<br/>NOM_RBD: COLEGIO SAN JUAN DE DIOS
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 2.0
+<br/>DIRECCION: JOSE ZAVALA RIOS
+<br/>NUMERO: 1200.0
+<br/>REFERENCIA: VILLA LAS POZAS 7
+<br/>LATITUD: -37.505791
+<br/>LONGITUD: -72.689217</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[6]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[17778.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[4.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[COLEGIO SAN JUAN DE DIOS]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[JOSE ZAVALA RIOS]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1200.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[VILLA LAS POZAS 7]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.505791]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.689217]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.689217,-37.505791,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA PALMILLA</name>
+<description><![CDATA[<p>
+<br/>RBD: 4469.0
+<br/>DGV_RBD: 5.0
+<br/>NOM_RBD: ESCUELA PALMILLA
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: CAMINO PALMILLA
+<br/>NUMERO: 8.0
+<br/>REFERENCIA: PUENTE NICODAHUE CAMINO PALMILLA KM 8
+<br/>LATITUD: -37.50465
+<br/>LONGITUD: -72.788597</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[7]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4469.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[5.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA PALMILLA]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[CAMINO PALMILLA]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[8.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[PUENTE NICODAHUE CAMINO PALMILLA KM 8]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.50465]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.788597]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.8200161576659,-37.49607926301415,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA CANADA</name>
+<description><![CDATA[<p>
+<br/>RBD: 4454.0
+<br/>DGV_RBD: 7.0
+<br/>NOM_RBD: ESCUELA CANADA
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: LICANLEBO
+<br/>NUMERO: 1042.0
+<br/>REFERENCIA: AL LADO DE LA CASA DE LA CULTURA Y DE LAS CANCHAS DE TENIS DE CMPC
+<br/>LATITUD: -37.502602
+<br/>LONGITUD: -72.68013</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[8]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4454.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[7.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA CANADA]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[LICANLEBO]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1042.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[AL LADO DE LA CASA DE LA CULTURA Y DE LAS CANCHAS DE TENIS DE CMPC]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.502602]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.68013]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.6803607338398,-37.502793292159645,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA DE LENGUAJE JESUS MAESTRO</name>
+<description><![CDATA[<p>
+<br/>RBD: 17807.0
+<br/>DGV_RBD: 1.0
+<br/>NOM_RBD: ESCUELA DE LENGUAJE JESUS MAESTRO
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 2.0
+<br/>DIRECCION: RUBEN DARIO
+<br/>NUMERO: 518.0
+<br/>REFERENCIA: ESQUINA FERNANDO VALENZUELA
+<br/>LATITUD: -37.502342
+<br/>LONGITUD: -72.67232</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[9]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[17807.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA DE LENGUAJE JESUS MAESTRO]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[RUBEN DARIO]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[518.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[ESQUINA FERNANDO VALENZUELA]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.502342]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.67232]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67825991869418,-37.50137962470248,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA EL SABER</name>
+<description><![CDATA[<p>
+<br/>RBD: 4452.0
+<br/>DGV_RBD: 0.0
+<br/>NOM_RBD: ESCUELA EL SABER
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: SAN MARTIN
+<br/>NUMERO: 480.0
+<br/>REFERENCIA: CENTRO DE LA CIUDAD. FRENTE A IGLESIA CATÓLICA
+<br/>LATITUD: -37.501202
+<br/>LONGITUD: -72.671982</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[10]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4452.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA EL SABER]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[SAN MARTIN]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[480.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[CENTRO DE LA CIUDAD. FRENTE A IGLESIA CATÓLICA]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.501202]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.671982]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67210624132562,-37.501351878387844,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA ESPECIAL DE LENGUAJE PEQUEÑAS PALABRAS</name>
+<description><![CDATA[<p>
+<br/>RBD: 16911.0
+<br/>DGV_RBD: 0.0
+<br/>NOM_RBD: ESCUELA ESPECIAL DE LENGUAJE PEQUEÑAS PALABRAS
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 2.0
+<br/>DIRECCION: AVENIDA JULIO HEMMELMANN
+<br/>NUMERO: 1026.0
+<br/>REFERENCIA: A UNA CUADRA DEL HOSPITAL DE NACIMIENTO POR JULIO HEMMELMANN, CARRETERA HACIA CONCEPCIÓN.
+<br/>LATITUD: -37.49898
+<br/>LONGITUD: -72.6869</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[11]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[16911.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA ESPECIAL DE LENGUAJE PEQUEÑAS PALABRAS]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[AVENIDA JULIO HEMMELMANN]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1026.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[A UNA CUADRA DEL HOSPITAL DE NACIMIENTO POR JULIO HEMMELMANN, CARRETERA HACIA CONCEPCIÓN.]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.49898]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.6869]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.68239181194123,-37.506063725039596,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA ESPECIAL AMPALU</name>
+<description><![CDATA[<p>
+<br/>RBD: 18008.0
+<br/>DGV_RBD: 4.0
+<br/>NOM_RBD: ESCUELA ESPECIAL AMPALU
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 2.0
+<br/>DIRECCION: SAN MARTIN
+<br/>NUMERO: 1107.0
+<br/>REFERENCIA: POBLACION EL PINAR.AVENIDA ESTACION 484. POBLACION ENTRE RIOS
+<br/>LATITUD: -37.497982
+<br/>LONGITUD: -72.67955</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[12]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[18008.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[4.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA ESPECIAL AMPALU]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[SAN MARTIN]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1107.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[POBLACION EL PINAR.AVENIDA ESTACION 484. POBLACION ENTRE RIOS]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.497982]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.67955]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.66226271070214,-37.50419012232348,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>COLEGIO TERESIANO PADRE ENRIQUE</name>
+<description><![CDATA[<p>
+<br/>RBD: 11430.0
+<br/>DGV_RBD: 8.0
+<br/>NOM_RBD: COLEGIO TERESIANO PADRE ENRIQUE
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 2.0
+<br/>DIRECCION: AVENIDA ESPAÑA
+<br/>NUMERO: 1125.0
+<br/>REFERENCIA: AVENIDA ESPAÑA 1125, ENTRE LAS CALLES LOS NOTROS Y CIPRECES
+<br/>LATITUD: -37.497898
+<br/>LONGITUD: -72.682167</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[13]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[11430.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[8.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[COLEGIO TERESIANO PADRE ENRIQUE]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[AVENIDA ESPAÑA]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1125.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[AVENIDA ESPAÑA 1125, ENTRE LAS CALLES LOS NOTROS Y CIPRECES]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.497898]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.682167]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.682167,-37.497898,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>CENTRO ESTIMULACIÓN TEMPRANA PRINCESITA MISIN</name>
+<description><![CDATA[<p>
+<br/>RBD: 18142.0
+<br/>DGV_RBD: 0.0
+<br/>NOM_RBD: CENTRO ESTIMULACIÓN TEMPRANA PRINCESITA MISIN
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 2.0
+<br/>DIRECCION: CALLE VILLA ALEGRE
+<br/>NUMERO: 916.0
+<br/>REFERENCIA: NULL
+<br/>LATITUD: -37.49699
+<br/>LONGITUD: -72.67904</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[14]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[18142.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[CENTRO ESTIMULACIÓN TEMPRANA PRINCESITA MISIN]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[CALLE VILLA ALEGRE]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[916.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[NULL]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.49699]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.67904]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67798887920875,-37.49777883364218,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA OSCAR GUERRERO QUINSAC</name>
+<description><![CDATA[<p>
+<br/>RBD: 4453.0
+<br/>DGV_RBD: 9.0
+<br/>NOM_RBD: ESCUELA OSCAR GUERRERO QUINSAC
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: VILLA ALEGRE
+<br/>NUMERO: 1105.0
+<br/>REFERENCIA: AL LADO DEL ESTADIO MUNICIPAL DE NACIMIENTO
+<br/>LATITUD: -37.496281
+<br/>LONGITUD: -72.679733</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[15]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4453.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[9.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA OSCAR GUERRERO QUINSAC]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[VILLA ALEGRE]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1105.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[AL LADO DEL ESTADIO MUNICIPAL DE NACIMIENTO]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.496281]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.679733]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67976849756347,-37.495618379726515,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA NACIMIENTO DE NUESTRO SEÑOR</name>
+<description><![CDATA[<p>
+<br/>RBD: 17924.0
+<br/>DGV_RBD: 8.0
+<br/>NOM_RBD: ESCUELA NACIMIENTO DE NUESTRO SEÑOR
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: VILLA ALEGRE
+<br/>NUMERO: 1415.0
+<br/>REFERENCIA: VILLA ALEGRE 1415 CAMINO A PUENTE COLGANTE   PASAJE STA. MARIA ENTRE 1425-1436 .POBL. SAN NICOLAS
+<br/>LATITUD: -37.492168
+<br/>LONGITUD: -72.684303</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[16]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[17924.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[8.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA NACIMIENTO DE NUESTRO SEÑOR]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[VILLA ALEGRE]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[1415.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[VILLA ALEGRE 1415 CAMINO A PUENTE COLGANTE   PASAJE STA. MARIA ENTRE 1425-1436 .POBL. SAN NICOLAS]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.492168]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.684303]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.684303,-37.492168,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA CARRIZAL</name>
+<description><![CDATA[<p>
+<br/>RBD: 4471.0
+<br/>DGV_RBD: 7.0
+<br/>NOM_RBD: ESCUELA CARRIZAL
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: CARRIZAL MAIPO
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: CARRIZAL SAN LUIS KM 37
+<br/>LATITUD: -37.471741
+<br/>LONGITUD: -72.773582</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[18]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4471.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[7.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA CARRIZAL]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[CARRIZAL MAIPO]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[CARRIZAL SAN LUIS KM 37]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.471741]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.773582]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.773582,-37.471741,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA SAN FRANCISCO DE MILLAPOA</name>
+<description><![CDATA[<p>
+<br/>RBD: 4470.0
+<br/>DGV_RBD: 9.0
+<br/>NOM_RBD: ESCUELA SAN FRANCISCO DE MILLAPOA
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: SAN FRANCISCO MILLAPOA
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: CAMINO BUSCA VIA  KM. 8    HACIA EL NORTE DE NACIMIENTO POR EL PUENTE COLGANTE.
+<br/>LATITUD: -37.468899
+<br/>LONGITUD: -72.721336</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[19]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4470.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[9.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA SAN FRANCISCO DE MILLAPOA]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[SAN FRANCISCO MILLAPOA]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[CAMINO BUSCA VIA  KM. 8    HACIA EL NORTE DE NACIMIENTO POR EL PUENTE COLGANTE.]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.468899]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.721336]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.721336,-37.468899,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA BASICA EL PERAL</name>
+<description><![CDATA[<p>
+<br/>RBD: 4462.0
+<br/>DGV_RBD: 8.0
+<br/>NOM_RBD: ESCUELA BASICA EL PERAL
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: FUNDO EL PERAL
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: CAMINO SANTA JUANA
+<br/>LATITUD: -37.453209
+<br/>LONGITUD: -72.763123</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[20]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4462.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[8.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA BASICA EL PERAL]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[FUNDO EL PERAL]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[CAMINO SANTA JUANA]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.453209]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.763123]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.77295884572194,-37.33643787457271,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA SANTA LUISA</name>
+<description><![CDATA[<p>
+<br/>RBD: 4467.0
+<br/>DGV_RBD: 9.0
+<br/>NOM_RBD: ESCUELA SANTA LUISA
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: SECTOR SANTA LUISA
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: FUNDO SANTA LUISA CAMINO MILLAPOA DIUQUÍN KM 9  HACIA  EL  NORTE  DE  NACIMIENTO  POR  PUENTE  COLGANTE.
+<br/>LATITUD: -37.453209
+<br/>LONGITUD: -72.697243</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[21]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4467.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[9.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA SANTA LUISA]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[SECTOR SANTA LUISA]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[FUNDO SANTA LUISA CAMINO MILLAPOA DIUQUÍN KM 9  HACIA  EL  NORTE  DE  NACIMIENTO  POR  PUENTE  COLGANTE.]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.453209]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.697243]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.697243,-37.453209,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA BASICA DOLLINCO</name>
+<description><![CDATA[<p>
+<br/>RBD: 4456.0
+<br/>DGV_RBD: 3.0
+<br/>NOM_RBD: ESCUELA BASICA DOLLINCO
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: CAMINO A SANTA JUANA
+<br/>NUMERO: 12.0
+<br/>REFERENCIA: POR LA RUTA DE LA MADERA, KM 12 CAMINO A SANTA JUANA, A ORILLA DE LA CARRETERA.
+<br/>LATITUD: -37.451591
+<br/>LONGITUD: -72.768623</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[22]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4456.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[3.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA BASICA DOLLINCO]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[CAMINO A SANTA JUANA]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[12.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[POR LA RUTA DE LA MADERA, KM 12 CAMINO A SANTA JUANA, A ORILLA DE LA CARRETERA.]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.451591]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.768623]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.76832324320574,-37.451381959077935,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA SAN ROQUE</name>
+<description><![CDATA[<p>
+<br/>RBD: 4472.0
+<br/>DGV_RBD: 5.0
+<br/>NOM_RBD: ESCUELA SAN ROQUE
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: CAMINO SAN ROQUE
+<br/>NUMERO: 34.0
+<br/>REFERENCIA: CAMINO SAN ROQUE KM. 34
+<br/>LATITUD: -37.413059
+<br/>LONGITUD: -72.837486</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[23]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4472.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[5.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA SAN ROQUE]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[CAMINO SAN ROQUE]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[34.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[CAMINO SAN ROQUE KM. 34]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.413059]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.837486]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.91063044762608,-37.413082577622404,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA MILLAPOA DIUQUIN</name>
+<description><![CDATA[<p>
+<br/>RBD: 4474.0
+<br/>DGV_RBD: 1.0
+<br/>NOM_RBD: ESCUELA MILLAPOA DIUQUIN
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: MILLAPOA
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: DIUQUIN- KM. 36 CAMINO A SANTA JUANA
+<br/>LATITUD: -37.37112
+<br/>LONGITUD: -72.676308</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[24]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4474.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA MILLAPOA DIUQUIN]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[MILLAPOA]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[DIUQUIN- KM. 36 CAMINO A SANTA JUANA]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.37112]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.676308]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67650520841835,-37.3711850787679,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA CHEQUENAL</name>
+<description><![CDATA[<p>
+<br/>RBD: 4479.0
+<br/>DGV_RBD: 2.0
+<br/>NOM_RBD: ESCUELA CHEQUENAL
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: SECTOR CHEQUENAL
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: NULL
+<br/>LATITUD: -37.370579
+<br/>LONGITUD: -72.734978</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[25]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4479.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[2.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA CHEQUENAL]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[SECTOR CHEQUENAL]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[NULL]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.370579]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.734978]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.734978,-37.370579,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>ESCUELA SAN RAMON</name>
+<description><![CDATA[<p>
+<br/>RBD: 4459.0
+<br/>DGV_RBD: 8.0
+<br/>NOM_RBD: ESCUELA SAN RAMON
+<br/>NOM_COM_RB: NACIMIENTO
+<br/>TIPO_DEPEN: 1.0
+<br/>DIRECCION: FUNDO SAN RAMON
+<br/>NUMERO: 0.0
+<br/>REFERENCIA: KM.26,5 CAMINO SANTA JUANA (INTERIOR)
+<br/>LATITUD: -37.363911
+<br/>LONGITUD: -72.862297</p>]]></description>
+<ExtendedData>
+	<Data name="fid"><displayName>fid</displayName><value><![CDATA[26]]></value></Data>
+	<Data name="AGNO"><displayName>AGNO</displayName><value><![CDATA[2021.0]]></value></Data>
+	<Data name="RBD"><displayName>RBD</displayName><value><![CDATA[4459.0]]></value></Data>
+	<Data name="DGV_RBD"><displayName>DGV_RBD</displayName><value><![CDATA[8.0]]></value></Data>
+	<Data name="NOM_RBD"><displayName>NOM_RBD</displayName><value><![CDATA[ESCUELA SAN RAMON]]></value></Data>
+	<Data name="NOM_COM_RB"><displayName>NOM_COM_RB</displayName><value><![CDATA[NACIMIENTO]]></value></Data>
+	<Data name="TIPO_DEPEN"><displayName>TIPO_DEPEN</displayName><value><![CDATA[1.0]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[FUNDO SAN RAMON]]></value></Data>
+	<Data name="NUMERO"><displayName>NUMERO</displayName><value><![CDATA[0.0]]></value></Data>
+	<Data name="REFERENCIA"><displayName>REFERENCIA</displayName><value><![CDATA[KM.26,5 CAMINO SANTA JUANA (INTERIOR)]]></value></Data>
+	<Data name="LATITUD"><displayName>LATITUD</displayName><value><![CDATA[-37.363911]]></value></Data>
+	<Data name="LONGITUD"><displayName>LONGITUD</displayName><value><![CDATA[-72.862297]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.862297,-37.363911,0.000</coordinates>
+	</Point>
+</Placemark>
+
+</Document>
+</kml>

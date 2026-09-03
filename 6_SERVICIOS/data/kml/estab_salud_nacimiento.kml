@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>estab_salud_nacimiento</name>
+<Style id="style1">
+	<IconStyle>
+		<Icon>
+			<href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblue-dot.png</href>
+		</Icon>
+	</IconStyle>
+</Style>
+<Placemark>
+<name>Hospital Comunitario y Familiar de Nacimiento</name>
+<description><![CDATA[<p>TIPO: Hospital
+<br/>DEPENDENCIA: Servicio de Salud
+<br/>NOMBRE: Hospital Comunitario y Familiar de Nacimiento
+<br/>DIRECCION: Julio Hemmelmann
+<br/>MODALIDAD: Atención Cerrada-Hospitalaria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Hospital]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Servicio de Salud]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Hospital Comunitario y Familiar de Nacimiento]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Julio Hemmelmann]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Cerrada-Hospitalaria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.676335,-37.507514,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Policlínico AChS Subregional Nacimiento</name>
+<description><![CDATA[<p>TIPO: Centro de Salud
+<br/>DEPENDENCIA: Privado
+<br/>NOMBRE: Policlínico AChS Subregional Nacimiento
+<br/>DIRECCION: El Palque 915
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Centro de Salud]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Privado]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Policlínico AChS Subregional Nacimiento]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[El Palque 915]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.675673,-37.506476,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Posta de Salud Rural Dollinco</name>
+<description><![CDATA[<p>TIPO: Posta de Salud Rural (PSR)
+<br/>DEPENDENCIA: Municipal
+<br/>NOMBRE: Posta de Salud Rural Dollinco
+<br/>DIRECCION: Sector Dollinco
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta de Salud Rural (PSR)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Municipal]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Posta de Salud Rural Dollinco]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Sector Dollinco]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.768093,-37.452025,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Posta de Salud Rural Culenco</name>
+<description><![CDATA[<p>TIPO: Posta de Salud Rural (PSR)
+<br/>DEPENDENCIA: Municipal
+<br/>NOMBRE: Posta de Salud Rural Culenco
+<br/>DIRECCION: Sector Culenco
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta de Salud Rural (PSR)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Municipal]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Posta de Salud Rural Culenco]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Sector Culenco]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.796188,-37.405541,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Posta de Salud Rural Choroico</name>
+<description><![CDATA[<p>TIPO: Posta de Salud Rural (PSR)
+<br/>DEPENDENCIA: Municipal
+<br/>NOMBRE: Posta de Salud Rural Choroico
+<br/>DIRECCION: Sector Choroico
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta de Salud Rural (PSR)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Municipal]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Posta de Salud Rural Choroico]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Sector Choroico]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.83187712466199,-37.540796233268956,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Posta de Salud Rural Millapoa</name>
+<description><![CDATA[<p>TIPO: Posta de Salud Rural (PSR)
+<br/>DEPENDENCIA: Municipal
+<br/>NOMBRE: Posta de Salud Rural Millapoa
+<br/>DIRECCION: Sector Millapoa
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta de Salud Rural (PSR)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Municipal]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Posta de Salud Rural Millapoa]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Sector Millapoa]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.67614020936716,-37.37083446462838,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Posta de Salud Rural Carrizal</name>
+<description><![CDATA[<p>TIPO: Posta de Salud Rural (PSR)
+<br/>DEPENDENCIA: Municipal
+<br/>NOMBRE: Posta de Salud Rural Carrizal
+<br/>DIRECCION: Sector Carrizal
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta de Salud Rural (PSR)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Municipal]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Posta de Salud Rural Carrizal]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Sector Carrizal]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.935556,-37.486111,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Posta de Salud Rural San Roque</name>
+<description><![CDATA[<p>TIPO: Posta de Salud Rural (PSR)
+<br/>DEPENDENCIA: Municipal
+<br/>NOMBRE: Posta de Salud Rural San Roque
+<br/>DIRECCION: Sector San Roque
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Posta de Salud Rural (PSR)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Municipal]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Posta de Salud Rural San Roque]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Sector San Roque]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.910962,-37.41294,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Centro Comunitario de Salud Familiar Julio Hemmelmann</name>
+<description><![CDATA[<p>TIPO: Centro Comunitario de Salud Familiar (CECOSF)
+<br/>DEPENDENCIA: Servicio de Salud
+<br/>NOMBRE: Centro Comunitario de Salud Familiar Julio Hemmelmann
+<br/>DIRECCION: Los Cipreses 209
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Centro Comunitario de Salud Familiar (CECOSF)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Servicio de Salud]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Centro Comunitario de Salud Familiar Julio Hemmelmann]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Los Cipreses 209]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.683427,-37.497457,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Centro Comunitario de Salud Familiar Lautaro</name>
+<description><![CDATA[<p>TIPO: Centro Comunitario de Salud Familiar (CECOSF)
+<br/>DEPENDENCIA: Servicio de Salud
+<br/>NOMBRE: Centro Comunitario de Salud Familiar Lautaro
+<br/>DIRECCION: Octavio Jara Wolf
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Centro Comunitario de Salud Familiar (CECOSF)]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Servicio de Salud]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Centro Comunitario de Salud Familiar Lautaro]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Octavio Jara Wolf]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.660591,-37.50642,0.000</coordinates>
+	</Point>
+</Placemark>
+
+<Placemark>
+<name>Clínica Dental CMPC Maderas S.A.</name>
+<description><![CDATA[<p>TIPO: Clínica Dental
+<br/>DEPENDENCIA: Privado
+<br/>NOMBRE: Clínica Dental CMPC Maderas S.A.
+<br/>DIRECCION: Leoncio Gallegos 1447
+<br/>MODALIDAD: Atención Abierta-Ambulatoria</p>]]></description>
+<ExtendedData>
+	<Data name="TIPO"><displayName>TIPO</displayName><value><![CDATA[Clínica Dental]]></value></Data>
+	<Data name="DEPEN_A"><displayName>DEPEN_A</displayName><value><![CDATA[Privado]]></value></Data>
+	<Data name="NOMBRE"><displayName>NOMBRE</displayName><value><![CDATA[Clínica Dental CMPC Maderas S.A.]]></value></Data>
+	<Data name="DIRECCION"><displayName>DIRECCION</displayName><value><![CDATA[Leoncio Gallegos 1447]]></value></Data>
+	<Data name="MODALIDAD"><displayName>MODALIDAD</displayName><value><![CDATA[Atención Abierta-Ambulatoria]]></value></Data>
+</ExtendedData>
+<styleUrl>#style1</styleUrl>
+	<Point>
+		<coordinates>-72.68377285143647,-37.5010228374745,0.000</coordinates>
+	</Point>
+</Placemark>
+
+</Document>
+</kml>

@@ -69,9 +69,10 @@ footer{
 /* NAVBAR */
 
 .navbar {
-    background: linear-gradient( rgb(130, 152, 68), rgb(125, 154, 29));
+    background: linear-gradient( rgb(130, 152, 68), rgb(130, 152, 68));
     font-family: 'Roboto', sans-serif;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    color: white;
   }
   
   .navbar-toggler{

@@ -12,7 +12,7 @@
   <crs>
     <spatialrefsys nativeFormat="Wkt">
       <wkt></wkt>
-      <proj4>+proj=utm +zone=18 +south +ellps=GRS67 +units=m +no_defs</proj4>
+      <proj4>+proj=utm +zone=18 +south +datum=WGS84 +units=m +no_defs</proj4>
       <srsid>0</srsid>
       <srid>0</srid>
       <authid></authid>

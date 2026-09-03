@@ -1,0 +1,321 @@
+/*
+Estilos para página de mapa Visor Nacimiento
+Versión 2.0
+Autor: Nelson Sánchez Alarcón
+Fecha: Marzo-2024
+*/
+
+/* == ESTILOS GENERALES ==*/
+body {
+  /*coincidir con ancho del navbar*/
+  padding-top: 58px;
+}
+
+@media (max-width: 550px) {  /*Para ajuste responsive del body*/
+  body{
+    padding-top: 48px
+  };
+
+}
+
+html, body, #container {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+#map {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: auto;
+}
+
+.list-group-item img {
+  max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+#aboutModal {
+  z-index: 3000;
+  position: absolute
+}
+
+.modal-backdrop {
+  z-index: 2005
+}
+
+/* == HEADER/NAVBAR ==*/
+.navbar {
+  /*background: linear-gradient( rgb(37, 150, 88), rgb(17, 148, 30));*/
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  z-index: 2000;
+}
+
+.navbar-toggler{
+  /*background-color: rgba(113, 241, 126, 0.808);*/
+  margin-top: 1px;
+}
+
+.navbar-toggler-icon{
+  width: 20px;
+}
+
+.dropdown-menu {
+  /*background: linear-gradient( rgba(40,167,69, 0.6), rgba(40,167,69, 0.6));*/
+  margin-top: 2px;
+  font-size: small;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.dropdown-menu > li > a:hover {
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.568);
+}
+
+/* Scrollbar custom */
+::-webkit-scrollbar {
+  width: 20px;
+}
+        
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+        
+::-webkit-scrollbar-thumb {
+  background-color: #afb9bc;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+        
+::-webkit-scrollbar-thumb:hover {
+  background-color: #474949;
+}
+        
+/* #### SELECTOR DE CAPAS #### */
+/* == ACORDEON SELECTOR DE CAPAS == */
+.accordion-button{
+  height: 25px;
+  font-size: 14px;
+  font-weight: bold ;
+  color: white;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 .25rem rgba(93, 239, 137, 0)
+}
+
+.accordion-button:not(.collapsed){
+  color: white;
+}
+
+/*Estilo botón de cierre del acordeón*/
+.accordion-button:not(.collapsed)::after, .accordion-button::after{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/*Estilo 2 botón de cierre del acordeón*/
+.btn-close {
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  opacity: .9
+}
+
+/* == TOAST SELECTOR DE CAPAS == */
+#miToast {
+  position: absolute;
+  right: 50px;
+  top: 68px;
+  z-index: 1000; /* Ajusta la capa de apilamiento según sea necesario */
+  width: 300px
+}
+
+.toast-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.list-group{
+  font-size: 14px;
+}
+
+.layerLabel:hover{
+  color: rgb(2, 89, 2);
+  cursor: pointer;
+}
+
+.leyendas {
+  margin-bottom: 2px;
+}
+
+.leyendas th {
+  width: 30px;
+}
+
+.fontleyenda {
+  font-size: 10px;
+}
+
+/* TOAST RESPONSIVE */
+@media (max-width: 400px) {
+  .accordion-button, .list-group {
+    font-size: 11px; 
+  }
+
+@media(max-width: 550px){
+#miToast {
+  position: fixed;
+  right: 50px;
+  top: 54px;
+  z-index: 1000; /* Ajusta la capa de apilamiento según sea necesario */
+  width: 70%;
+    }
+
+.toast-body {
+  max-height: 550px;
+  overflow-y: auto;
+    }
+  }
+}
+
+/* == ELEMENTOS MAP Y ADD-ONS == */
+.info { 
+  padding: 10px 10px; 
+  font-size: 14px/25px; 
+  background: rgba(238, 196, 58, 0.8); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.2); 
+  border-radius: 5px; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.info h4 { 
+  margin: 0 0 5px; 
+  color: rgb(0, 0, 0); 
+}
+
+.leaflet-popup-content-wrapper {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 0px;
+  max-width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.leaflet-popup-tip {
+  background: rgba(255, 255, 255, 0.774);
+  box-shadow: 10px ;
+}
+
+/* PRC estilo propio */
+.leaflet-popup-scrolled {
+  border-bottom: none;
+  border-top: none;
+}
+
+/*.leaflet-control-layers,
+.leaflet-control-layers label {
+  overflow: normal;
+  font-weight: normal;
+  margin-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+  vertical-align: middle;
+}
+
+.leaflet-control-layers-list input[type="radio"], input[type="checkbox"] {
+    margin: 3px;
+  }
+*/
+.search-tip b {
+  float: right;
+  clear: left;
+  padding: 0 4px;
+  margin-left: 4px;
+ 
+}
+
+
+/*
+Cambiar color del "buildtip" según clase
+
+.JJVV.search-tip b{
+  color: rgb(17, 0, 173);
+  float: right;
+}
+
+.PRC.search-tip b{
+  color: rgb(0, 0, 0);
+  float: right;
+}
+*/
+
+.leaflet-control-search .search-tooltip {
+	min-width: min-content;
+	max-width: max-content; 
+}
+
+.leaflet-control-search .search-tip {
+	margin-left :2px;
+	min-width: max-content;
+  padding:2px 4px;
+}
+
+.leaflet-control-search .search-tip b{
+	margin-left: 4px;
+}
+
+.fa-spin{
+  color: orange;
+}
+
+.fa-location-arrow {
+  vertical-align: middle;
+};
+
+.img {
+  vertical-align: middle;
+}
+
+.list-group-item img {
+  max-width: 100%; /* Asegurar que la imagen no supere el ancho del contenedor li */
+  height: auto; /* Altura automática para mantener la proporción */
+  display: block; /* Hacer que la imagen sea un bloque para aplicar márgenes automáticos */
+  margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+#btn{
+  position:absolute;
+  top:10px;
+  right:10px;
+  z-index:1000;
+  background:white;
+}
+
+.leaflet-tooltip {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  padding: 1px 3px;
+  background: white;
+  border: none;
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+  font-size: 9px;
+  text-align: center;
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+th{
+  vertical-align: middle;
+  text-align: left;
+}
